@@ -24,35 +24,35 @@ public class MainActivity extends AppCompatActivity {
         button = (Button) findViewById(R.id.stock_hawnk);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                message("Stock Hawk");
+                message(getString(R.string.stock_hawk));
             }
         });
 
         button = (Button) findViewById(R.id.build_itBigger);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                message("Build it bigger");
+                message(getString(R.string.build_it_bigger));
             }
         });
 
         button = (Button) findViewById(R.id.make_yourAppMaterial);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                message("Make your app material");
+                message(getString(R.string.make_your_app_material));
             }
         });
 
         button = (Button) findViewById(R.id.go_ubiquitous);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                message("Go ubiquitous");
+                message(getString(R.string.go_ubiquitous));
             }
         });
 
         button = (Button) findViewById(R.id.capstone);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                message("Capstone");
+                message(getString(R.string.capstone));
             }
         });
     }
